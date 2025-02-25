@@ -16,7 +16,7 @@ endif()
 #=============================
 # Project / Package metadata
 #=============================
-set(CLIENT_NAME "Bitcoin Core")
+set(CLIENT_NAME "Rikucoin")
 set(CLIENT_VERSION_MAJOR 28)
 set(CLIENT_VERSION_MINOR 99)
 set(CLIENT_VERSION_BUILD 0)
@@ -42,7 +42,7 @@ set(CMAKE_TRY_COMPILE_PLATFORM_VARIABLES
 
 project(BitcoinCore
   VERSION ${CLIENT_VERSION_MAJOR}.${CLIENT_VERSION_MINOR}.${CLIENT_VERSION_BUILD}
-  DESCRIPTION "Bitcoin client software"
+  DESCRIPTION "RikuCoin client software"
   HOMEPAGE_URL "https://bitcoincore.org/"
   LANGUAGES NONE
 )
